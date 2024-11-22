@@ -14,3 +14,10 @@ words = text.split()
 reversed_words = " ".join(reversed(words))
 print(reversed_words)
 
+номер 3
+text = input("введите строку ")
+home = input("введите слово для поиска ")
+if (home in text):
+    print("слово найдено:")
+else:
+    print("слово не найдено")
